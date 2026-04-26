@@ -84,7 +84,7 @@ class Heading extends Widget{
         if(this._text != null)
             this._text.font('size', this._fontSize);
             this._text.text(this._input);
-            this.positionText();
+            // this.positionText(); // Commented since having it modifies the y values of the labels.
 
         if(this._rect != null)
             this._rect.fill(this.backcolor);
